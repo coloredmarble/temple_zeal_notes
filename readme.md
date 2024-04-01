@@ -92,7 +92,7 @@ btw there is an easier way to do this! if you want a non-updating draw (there ar
 ```
 U0 Main(){
   // DCAlias exists so that 2 tasks can draw to the screen with different pen colors. check src comments
-  GrRect(DCAlias();,0,0,64,64);
+  GrRect(DCAlias(),0,0,64,64);
 }
 ```
 however. even when the tasks that is drawing exists. the square will be stuck there until you clear it.
